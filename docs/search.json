@@ -1,10 +1,94 @@
 [
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/post-with-code/index.html#who-am-i",
+    "href": "posts/post-with-code/index.html#who-am-i",
+    "title": "Lecture 1 - INTRO",
+    "section": "WHO AM I?",
+    "text": "WHO AM I?\nBarrie Robison\nDepartment of Biological Sciences\nInstitute for Interdisicplinary Data Sciences\nPolymorphic Games\nUniversity of Idaho"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#who-are-you",
+    "href": "posts/post-with-code/index.html#who-are-you",
+    "title": "Lecture 1 - INTRO",
+    "section": "WHO ARE YOU?",
+    "text": "WHO ARE YOU?\nBriefly:\n\nYour name\nYour discipline\nYour degree progress\nYour technical proficiency with data visualization"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#course-summary",
+    "href": "posts/post-with-code/index.html#course-summary",
+    "title": "Lecture 1 - INTRO",
+    "section": "COURSE SUMMARY",
+    "text": "COURSE SUMMARY\nStudents completing this course will be able to:\n\n\nDescribe and manipulate tabular, network, and spatial data; transform these data into a form suitable for visualization.\nMake effective data visualization design choices related to marks and channels, spatial arrangement, and components of color.\nDesign effective data visualizations for tabular, network, and spatial data with quantitative and categorical attributes.\nImplement their data visualization designs using existing tools in R (or other toolkits preferred by the student).\nExplain whether a visual encoding is perceptually appropriate for a specific combination of task and data.\nDemonstrate their skills with at least two novel visualizations suitable suitable for inclusion in an online Data Science Portfolio.\n\nThe course materials are located on Canvas."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#visualization",
+    "href": "posts/post-with-code/index.html#visualization",
+    "title": "Lecture 1 - INTRO",
+    "section": "VISUALIZATION",
+    "text": "VISUALIZATION\nComputer-based systems provide visual representations of datasets designed to help people carry out tasks more effectively.\nTamara Munzner\nDepartment of Computer Science\nInfoVis Group\nUniversity of British Columbia"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#the-human",
+    "href": "posts/post-with-code/index.html#the-human",
+    "title": "Lecture 1 - INTRO",
+    "section": "THE HUMAN",
+    "text": "THE HUMAN\nWhy have a human in the loop?\nComputer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively.\nVisualization is suitable when there is a need to augment human capabilities rather than replace people with computational decision-making methods.\nWe don’t need visualiztion when a trusted fully automatic solution exists.\n\nVisualization is useful when:\n-analysis problem is ill-specified and we don’t know exactly what questions to ask in advance -long-term use for end users (ex: exploratory analysis of scientific data) -presentation of known results (ex: New York Times Upshot) -stepping stone to assess requirements before developing models -help automatic solution developers refine & determine parameters -help end users of automatic solutions verify, build trust\n\n\nHighlight red"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#the-representation",
+    "href": "posts/post-with-code/index.html#the-representation",
+    "title": "Lecture 1 - INTRO",
+    "section": "THE REPRESENTATION",
+    "text": "THE REPRESENTATION\nComputer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#why-depend-on-vision",
+    "href": "posts/post-with-code/index.html#why-depend-on-vision",
+    "title": "Lecture 1 - INTRO",
+    "section": "WHY DEPEND ON VISION?",
+    "text": "WHY DEPEND ON VISION?\nComputer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively.\nhuman visual system is high-bandwidth channel to brain overview possible due to background processing subjective experience of seeing everything simultaneously significant processing occurs in parallel and pre-attentively sound: lower bandwidth and different semantics overview not supported subjective experience of sequential stream touch/haptics: impoverished record/replay capacity only very low-bandwidth communication thus far taste, smell: no viable record/replay devices"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#why-represent-all-the-data",
+    "href": "posts/post-with-code/index.html#why-represent-all-the-data",
+    "title": "Lecture 1 - INTRO",
+    "section": "WHY REPRESENT (ALL THE) DATA?",
+    "text": "WHY REPRESENT (ALL THE) DATA?\nComputer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively.\nsummaries lose information, details matter confirm expected and find unexpected patterns assess validity of statistical model"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#anscombes-quartet",
+    "href": "posts/post-with-code/index.html#anscombes-quartet",
+    "title": "Lecture 1 - INTRO",
+    "section": "ANSCOMBE’S QUARTET",
+    "text": "ANSCOMBE’S QUARTET\n\nlibrary(ggplot2)\nlibrary(grid)\nlibrary(gridExtra)\nlibrary(datasets)\nlibrary(tidyverse)\nlibrary(dplyr)\ndatasets::anscombe\n\n   x1 x2 x3 x4    y1   y2    y3    y4\n1  10 10 10  8  8.04 9.14  7.46  6.58\n2   8  8  8  8  6.95 8.14  6.77  5.76\n3  13 13 13  8  7.58 8.74 12.74  7.71\n4   9  9  9  8  8.81 8.77  7.11  8.84\n5  11 11 11  8  8.33 9.26  7.81  8.47\n6  14 14 14  8  9.96 8.10  8.84  7.04\n7   6  6  6  8  7.24 6.13  6.08  5.25\n8   4  4  4 19  4.26 3.10  5.39 12.50\n9  12 12 12  8 10.84 9.13  8.15  5.56\n10  7  7  7  8  4.82 7.26  6.42  7.91\n11  5  5  5  8  5.68 4.74  5.73  6.89"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#column-layout",
+    "href": "posts/post-with-code/index.html#column-layout",
+    "title": "Lecture 1 - INTRO",
+    "section": "Column Layout",
+    "text": "Column Layout\nArrange content into columns of varying widths:\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\n\nset\nx_mean\nx_var\ny_mean\ny_var\n\n\n\n\n1\n9\n11\n7.500909\n4.127269\n\n\n2\n9\n11\n7.500909\n4.127629\n\n\n3\n9\n11\n7.500000\n4.122620\n\n\n4\n9\n11\n7.500909\n4.123249\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Multiple Columns"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#resource-limitations",
+    "href": "posts/post-with-code/index.html#resource-limitations",
+    "title": "Lecture 1 - INTRO",
+    "section": "RESOURCE LIMITATIONS",
+    "text": "RESOURCE LIMITATIONS\nVis designers must take into account three very different kinds of resource limitations: those of computers, of humans, and of displays.\ncomputational limits computation time, system memory display limits pixels are precious & most constrained resource information density: ratio of space used to encode info vs unused whitespace tradeoff between clutter and wasting space find sweet spot between dense and sparse human limits human time, human memory, human attention"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#visualization-analysis-and-design",
+    "href": "posts/post-with-code/index.html#visualization-analysis-and-design",
+    "title": "Lecture 1 - INTRO",
+    "section": "VISUALIZATION ANALYSIS AND DESIGN",
+    "text": "VISUALIZATION ANALYSIS AND DESIGN\nANALYSIS?\nimposes structure on huge design space scaffold to help you think systematically about choices analyzing existing as stepping stone to designing new most possibilities ineffective for particular task/data combination"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#section",
+    "href": "posts/post-with-code/index.html#section",
+    "title": "Lecture 1 - INTRO",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "https://canvas.uidaho.edu/courses/11081"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -18,7 +102,7 @@
     "href": "index.html",
     "title": "Professor Polymorphic",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nBarrie Robison\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nBarrie Robison\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lecture 1 - INTRO\n\n\n\ndataviz\n\n\ncode\n\n\nanalysis\n\n\nBCB504\n\n\n\n\n\n\n\nBarrie Robison\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nBarrie Robison\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
