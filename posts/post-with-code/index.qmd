@@ -7,7 +7,7 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
-    logo: images/quarto.png
+    logo: iids.png
     css: styles.css
     footer: <https://canvas.uidaho.edu/courses/11081>
     theme: [default, custom.scss]
