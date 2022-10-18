@@ -32,7 +32,7 @@
     "href": "posts/post-with-code/index.html#the-human",
     "title": "Lecture 1 - INTRO",
     "section": "THE HUMAN",
-    "text": "THE HUMAN\nWhy have a human in the loop?\nComputer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively.\nVisualization is suitable when there is a need to augment human capabilities rather than replace people with computational decision-making methods.\nWe don’t need visualiztion when a trusted fully automatic solution exists.\n\nVisualization is useful when:\n-analysis problem is ill-specified and we don’t know exactly what questions to ask in advance -long-term use for end users (ex: exploratory analysis of scientific data) -presentation of known results (ex: New York Times Upshot) -stepping stone to assess requirements before developing models -help automatic solution developers refine & determine parameters -help end users of automatic solutions verify, build trust\n\n\nHighlight red"
+    "text": "THE HUMAN\nWhy have a human in the loop?\nComputer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively.\nWe don’t need visualiztion when a trusted fully automatic solution exists. Visualization is suitable when there is a need to augment human capabilities rather than replace people with computational decision-making methods.\n\nVisualization is useful when:\n-analysis problem is ill-specified and we don’t know exactly what questions to ask in advance -long-term use for end users (ex: exploratory analysis of scientific data) -presentation of known results (ex: New York Times Upshot) -stepping stone to assess requirements before developing models -help automatic solution developers refine & determine parameters -help end users of automatic solutions verify, build trust"
   },
   {
     "objectID": "posts/post-with-code/index.html#the-representation",
@@ -67,7 +67,7 @@
     "href": "posts/post-with-code/index.html#column-layout",
     "title": "Lecture 1 - INTRO",
     "section": "Column Layout",
-    "text": "Column Layout\nArrange content into columns of varying widths:\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\n\nset\nx_mean\nx_var\ny_mean\ny_var\n\n\n\n\n1\n9\n11\n7.500909\n4.127269\n\n\n2\n9\n11\n7.500909\n4.127629\n\n\n3\n9\n11\n7.500000\n4.122620\n\n\n4\n9\n11\n7.500909\n4.123249\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Multiple Columns"
+    "text": "Column Layout\nArrange content into columns of varying widths:\n\n\nAnscombe’s Quartet\nThe four x,y pairs have identical summary statistics, but visualization reveals dramatic differences in the relationship between x and y.\n\n\n\n\n\n\n\n\nset\nx_mean\nx_var\ny_mean\ny_var\n\n\n\n\n1\n9\n11\n7.500909\n4.127269\n\n\n2\n9\n11\n7.500909\n4.127629\n\n\n3\n9\n11\n7.500000\n4.122620\n\n\n4\n9\n11\n7.500909\n4.123249\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Multiple Columns"
   },
   {
     "objectID": "posts/post-with-code/index.html#resource-limitations",

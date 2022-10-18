@@ -84,9 +84,7 @@ Why have a human in the loop?
 
 Computer-based visualization systems provide visual representations of datasets designed to help [people]{.red} carry out [tasks]{.red} more effectively.
 
-Visualization is suitable when there is a need to augment human capabilities rather than replace people with computational decision-making methods.
-
-We don't need visualiztion when a **trusted** fully automatic solution exists.
+We don't need visualiztion when a **trusted** fully automatic solution exists. Visualization is suitable when there is a need to augment human capabilities rather than replace people with computational decision-making methods.
 
 ::: r-fit-text
 
@@ -100,9 +98,7 @@ Visualization is useful when:
 -help end users of automatic solutions verify, build trust
 :::
 
-::: {.fragment .highlight-red}
-Highlight red
-:::
+
 
 ## THE REPRESENTATION
 
@@ -139,9 +135,9 @@ Arrange content into columns of varying widths:
 
 ::: columns
 ::: {.column width="35%"}
-#### Motor Trend Car Road Tests
+#### Anscombe's Quartet
 
-The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.
+The four x,y pairs have identical summary statistics, but [visualization]{.red} reveals dramatic differences in the relationship between x and y.
 :::
 
 ::: {.column width="3%"}
