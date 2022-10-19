@@ -1,12 +1,12 @@
 ---
-title: "Welcome To My Blog"
+title: "You've gotta be f***ing kidding..."
 author: "Barrie Robison"
-date: "2022-10-16"
+date: "2022-10-19"
 categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+Mac wants the flamethrower...
 
-![](thumbnail.jpg)
+![](Palmerquote.jpg)
 
 Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
